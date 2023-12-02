@@ -1,9 +1,5 @@
 use r_1;
 
-// #[test]
-// fn it_compute_0() {
-//     assert_eq!("142 / 281", r_1::compute(String::from("data/")));
-// }
 #[test]
 fn it_compute_1() {
     assert_eq!(142, r_1::compute_1(String::from("data/sample_1.txt")));
