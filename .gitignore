@@ -2,3 +2,6 @@
 
 # GitHub self-hosted runner
 /actions-runner
+
+# Template rust_
+/r_
