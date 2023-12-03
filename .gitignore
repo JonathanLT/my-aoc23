@@ -1,7 +1,7 @@
-/target
+target/
 
 # GitHub self-hosted runner
-/actions-runner
+actions-runner/
 
 # Template rust_
-/r_
+r_/

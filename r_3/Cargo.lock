@@ -18,26 +18,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f665ee40bc4a3c5590afb1e9677db74a508659dfd71e126420da8274909a0167"
 
 [[package]]
-name = "my-aoc23"
-version = "0.1.0"
-dependencies = [
- "r_1",
- "r_2",
- "r_3",
-]
-
-[[package]]
-name = "r_1"
-version = "0.1.0"
-dependencies = [
- "regex",
-]
-
-[[package]]
-name = "r_2"
-version = "0.1.0"
-
-[[package]]
 name = "r_3"
 version = "0.1.0"
 dependencies = [

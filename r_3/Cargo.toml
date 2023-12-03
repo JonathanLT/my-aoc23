@@ -1,11 +1,9 @@
 [package]
-name = "my-aoc23"
+name = "r_3"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-r_1 = { path = "./r_1" }
-r_2 = { path = "./r_2" }
-r_3 = { path = "./r_3" }
+regex = "1.10.2"
