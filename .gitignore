@@ -5,3 +5,6 @@ actions-runner/
 
 # Template rust_
 r_/
+
+# VSCode
+.vscode/

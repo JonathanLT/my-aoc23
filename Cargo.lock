@@ -24,6 +24,7 @@ dependencies = [
  "r_1",
  "r_2",
  "r_3",
+ "r_4",
 ]
 
 [[package]]
@@ -43,6 +44,10 @@ version = "0.1.0"
 dependencies = [
  "regex",
 ]
+
+[[package]]
+name = "r_4"
+version = "0.1.0"
 
 [[package]]
 name = "regex"
