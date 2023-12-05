@@ -1,7 +1,10 @@
+use std::fs;
+
 extern crate r_1;
 extern crate r_2;
 extern crate r_3;
 extern crate r_4;
+extern crate r_5;
 
 fn main() {
     println!(
@@ -23,5 +26,10 @@ fn main() {
         "day 4 : {} / {}",
         r_4::compute_1(String::from("r_4/data/input_1.txt")),
         r_4::compute_2(String::from("r_4/data/input_2.txt"))
+    );
+    println!(
+        "day 5 : {} / {}",
+        r_5::part_1(fs::read_to_string("r_5/data/input_1.txt").expect(&format!("Failed to read {}", "r_5/data/input_1.txt")).as_ref()),
+        r_5::part_2(fs::read_to_string("r_5/data/input_2.txt").expect(&format!("Failed to read {}", "r_5/data/input_2.txt")).as_ref())
     );
 }
