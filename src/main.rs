@@ -32,4 +32,9 @@ fn main() {
         r_5::part_1(fs::read_to_string("r_5/data/input_1.txt").expect(&format!("Failed to read {}", "r_5/data/input_1.txt")).as_ref()),
         r_5::part_2(fs::read_to_string("r_5/data/input_2.txt").expect(&format!("Failed to read {}", "r_5/data/input_2.txt")).as_ref())
     );
+    println!(
+        "day 6 : {} / {}",
+        r_6::compute_1(String::from("r_6/data/input_1.txt")),
+        r_6::compute_2(String::from("r_6/data/input_2.txt"))
+    );
 }
