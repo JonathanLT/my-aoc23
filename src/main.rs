@@ -5,6 +5,8 @@ extern crate r_2;
 extern crate r_3;
 extern crate r_4;
 extern crate r_5;
+extern crate r_6;
+extern crate r_7;
 
 fn main() {
     println!(
@@ -36,5 +38,10 @@ fn main() {
         "day 6 : {} / {}",
         r_6::compute_1(String::from("r_6/data/input_1.txt")),
         r_6::compute_2(String::from("r_6/data/input_2.txt"))
+    );
+    println!(
+        "day 7 : {} / {}",
+        r_7::compute_1(String::from("r_7/data/input_1.txt")),
+        r_7::compute_2(String::from("r_7/data/input_2.txt"))
     );
 }
